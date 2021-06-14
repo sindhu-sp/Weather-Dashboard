@@ -30,6 +30,9 @@ The following image demonstrates the application functionality:
 ## Weather Dashboard Demo
 <img src="./assets/weather-dashboard.png" alt="refresh page" height = 300 width= 500 />
 
+## Deployed Site
+<https://sindhu-sp.github.io/Weather-Dashboard/>
+
 ## Technologies Used:
 - HTML
 - CSS
