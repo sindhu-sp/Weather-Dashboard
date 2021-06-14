@@ -101,7 +101,7 @@ var updateUVIndex = function (val) {
     currentUvi.addClass("orange");
   } else if ((val >= 8) && (val <= 10)) {
     currentUvi.addClass("red");
-  } else if (val >= 11) {
+  } else {
     currentUvi.addClass("purple");
   };
 };
