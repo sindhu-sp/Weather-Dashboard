@@ -27,7 +27,7 @@ then again presented with current and future conditions for that city
 
 The following image demonstrates the application functionality:
 
-## Weather Dashboard mockup
+## Weather Dashboard Demo
 <img src="./assets/weather-dashboard.png" alt="refresh page" height = 300 width= 500 />
 
 ## Technologies Used:
