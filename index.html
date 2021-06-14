@@ -3,43 +3,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Weather Dashboard</title>
 
-    <!--Bootstrap CSS CDN-->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 
-    <!-- Font Awesome CSS Icons(For cool glyphicons) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <!--Jumbotron for Title-->
-    <div class="jumbotron container-fluid p-3 mb-2 bg-primary text-white text-center fs-1">
-        <h1> <strong>Weather Dashboard</strong></h1>
+    <!--Jumbotron -->
+    <div class="
+        jumbotron
+        container-fluid
+        p-3
+        mb-2
+        bg-primary
+        text-white text-center
+        fs-1
+      ">
+        <h1><strong>Weather Dashboard</strong></h1>
     </div>
 
     <div class="row">
         <div class="col-sm-4 bg-light">
-
-
             <h4 class="pt-1"><strong>Search for a City:</strong></h4>
             <!-- Input search -->
             <div class="input-group mb-3">
                 <input type="text" class="form-control" id="searchCity" onfocus="this.value=''" value="City Search"
-                    aria-label="City Search" aria-describedby="searchBtn">
-
+                    aria-label="City Search" aria-describedby="searchBtn" />
             </div>
-            <button class=" btn btn-primary d-grid gap-2" type="button" id="searchBtn">Search</button>
+            <button class="btn btn-primary d-grid gap-2" type="button" id="searchBtn">
+                Search
+            </button>
             <!--search history-->
-            <button class=" btn btn-secondary" type="button" id="clearBtn">Clear</button>
+            <button class="btn btn-secondary" type="button" id="clearBtn">
+                Clear
+            </button>
 
-            <ul class="list-group" style="background-color: grey;"></ul>
+            <ul class="list-group" style="background-color: grey"></ul>
         </div>
         <!-- Current weather -->
         <div class="row ml-2 border border-light rounded bg-info">
@@ -48,7 +54,9 @@
                 <p>Feels Like:<span class="current" id="temperatureCity"></span></p>
                 <p>Humidity:<span class="current" id="humidity"></span></p>
                 <p>Wind Speed:<span class="current" id="windSpeed"></span></p>
-                <p>UV index:<span class="color rounded py-2 px-2 text-dark" id="uvIndex"></span></p>
+                <p>
+                    UV index:<span class="color rounded py-2 px-2 text-dark" id="uvIndex"></span>
+                </p>
             </div>
         </div>
         <!--Weather forecast-->
@@ -64,7 +72,6 @@
                     <p>Humidity :<span id="forecastHumidity0"></span></p>
                 </div>
                 <div class="forecast col-sm-2 bg-primary text-white ml-2 mb-3 p-2 mt-2">
-
                     <p id="forecastDate1"></p>
                     <p id="forecastImg1"></p>
                     <p>Temperature :<span id="forecastTemp1"></span></p>
